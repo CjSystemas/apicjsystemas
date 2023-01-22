@@ -125,6 +125,3 @@ def showMessage(error=None):
     respone = jsonify(message)
     respone.status_code = 404
     return respone
-        
-if __name__ == "__main__":
-    app.run()

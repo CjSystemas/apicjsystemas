@@ -13,6 +13,10 @@ Flask
 Gunicorn
 flask-cors
 flask-mysql
+   
+if __name__ == "__main__":
+    app.run()
+    
 '''
 
 mysql = MySQL()
