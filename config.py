@@ -8,6 +8,11 @@ app.config['MYSQL_DATABASE_PASSWORD'] = '@@991674124'
 app.config['MYSQL_DATABASE_DB'] = 'cc1'
 app.config['MYSQL_DATABASE_HOST'] = 'localhost'
 mysql.init_app(app)
+
+Flask
+Gunicorn
+flask-cors
+flask-mysql
 '''
 
 mysql = MySQL()

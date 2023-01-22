@@ -27,7 +27,6 @@ def create_emp():
             return respone
         else:
             return showMessage()
-            return render_template('index.html')
     except Exception as e:
         print(e)
     finally:
